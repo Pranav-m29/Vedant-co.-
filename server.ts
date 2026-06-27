@@ -13,7 +13,10 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 
 // Helper function to read/write JSON files safely
-const DATA_DIR = path.join(__dirname, 'data');
+const DATA_DIR = process.env.VERCEL 
+  ? '/tmp' 
+  : path.join(__dirname, 'data');
+
 if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
@@ -307,6 +310,10 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Start Server
-app.listen(PORT, () => {
-  console.log(`Backend server is running on http://localhost:${PORT}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`Backend server is running on http://localhost:${PORT}`);
+  });
+}
+
+export default app;
