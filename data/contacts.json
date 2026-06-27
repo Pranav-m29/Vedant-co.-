@@ -1,0 +1,50 @@
+[
+  {
+    "id": "MSG-396278",
+    "timestamp": "2026-06-26T19:40:42.145Z",
+    "name": "Test User",
+    "email": "test@example.com",
+    "subject": "Product Inquiry",
+    "message": "This is a test message for the apothecary laboratory."
+  },
+  {
+    "id": "MSG-917744",
+    "timestamp": "2026-06-26T19:42:00.731Z",
+    "name": "Test User",
+    "email": "test@example.com",
+    "subject": "Product Inquiry",
+    "message": "This is a test message for the apothecary laboratory."
+  },
+  {
+    "id": "MSG-998586",
+    "timestamp": "2026-06-26T19:42:59.184Z",
+    "name": "Test User",
+    "email": "test@example.com",
+    "subject": "Product Inquiry",
+    "message": "This is a test message for the apothecary laboratory."
+  },
+  {
+    "id": "MSG-700772",
+    "timestamp": "2026-06-26T19:43:55.418Z",
+    "name": "Test User",
+    "email": "gkpranaveer700@gmail.com",
+    "subject": "Product Inquiry",
+    "message": "This is a test message for the apothecary laboratory."
+  },
+  {
+    "id": "MSG-941574",
+    "timestamp": "2026-06-26T19:45:56.761Z",
+    "name": "Test User",
+    "email": "gkpranaveer700@gmail.com",
+    "subject": "Product Inquiry",
+    "message": "This is a test message for the apothecary laboratory."
+  },
+  {
+    "id": "MSG-136822",
+    "timestamp": "2026-06-26T19:50:15.302Z",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "subject": "Product Inquiry",
+    "message": "Hello, do you ship to Canada?"
+  }
+]

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "EB Garamond", ui-serif, Georgia, serif;
+}
+
+:root {
+  --bg: #f8f5f2;
+  --ink: #121212;
+  --accent: #c44d2f;
+  --f-serif: "EB Garamond", "Georgia", serif;
+  --f-sans: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Base style resets with Editorial Theme */
+body {
+  font-family: var(--f-sans);
+  background-color: var(--bg) !important;
+  color: var(--ink) !important;
+}
+
+/* Base headings styled with italic serif flair */
+h1, .font-serif.text-4xl, .font-serif.text-5xl, .font-serif.text-6xl, .font-serif.text-\[40px\], .font-serif.text-\[56px\], .font-serif.text-\[32px\], .font-serif.text-\[44px\], .font-serif.text-\[36px\], .font-serif.text-\[48px\] {
+  font-family: var(--f-serif) !important;
+  font-style: italic !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Brand logo styled with editorial identity */
+#brand-logo, .footer-logo {
+  font-family: var(--f-serif) !important;
+  font-size: 28px !important;
+  font-style: italic !important;
+  font-weight: 800 !important;
+  letter-spacing: -1px !important;
+}
+
+/* Small uppercase high-spaced labels */
+.nav-links a, .nav-links button, .uppercase-label, .font-sans.text-\[11px\].font-bold, .font-sans.text-\[9px\].font-bold {
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  font-weight: 700 !important;
+}
+
+/* Custom Circle Button style from Design HTML */
+.editorial-cta {
+  width: 140px;
+  height: 140px;
+  border-radius: 50% !important;
+  border: 1px solid var(--ink) !important;
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  background-color: transparent !important;
+  color: var(--ink) !important;
+  transition: all 0.3s ease !important;
+}
+.editorial-cta:hover {
+  background-color: var(--ink) !important;
+  color: var(--bg) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* THEME COLOR OVERRIDES (Overriding hardcoded Tailwind arbitrary colors) */
+/* -------------------------------------------------------------------------- */
+
+/* 1. Deep Ink Background Overrides (#1A2420 and #2F4A3C) */
+[class*="bg-[#1A2420]"], [class*="bg-[#2F4A3C]"], 
+[class*="hover:bg-[#1A2420]"]:hover, [class*="hover:bg-[#2F4A3C]"]:hover {
+  background-color: var(--ink) !important;
+}
+
+/* 2. Deep Ink Text Overrides */
+[class*="text-[#1A2420]"], [class*="text-[#2F4A3C]"],
+[class*="hover:text-[#1A2420]"]:hover, [class*="hover:text-[#2F4A3C]"]:hover {
+  color: var(--ink) !important;
+}
+
+/* 3. Deep Ink Border Overrides */
+[class*="border-[#1A2420]"], [class*="border-[#2F4A3C]"],
+[class*="hover:border-[#1A2420]"]:hover, [class*="hover:border-[#2F4A3C]"]:hover {
+  border-color: var(--ink) !important;
+}
+[class*="border-[#1A2420]/10"], [class*="border-[#2F4A3C]/10"] {
+  border-color: rgba(18, 18, 18, 0.08) !important;
+}
+[class*="border-[#1A2420]/5"], [class*="border-[#2F4A3C]/5"] {
+  border-color: rgba(18, 18, 18, 0.04) !important;
+}
+[class*="border-[#1A2420]/15"] {
+  border-color: rgba(18, 18, 18, 0.12) !important;
+}
+[class*="border-[#1A2420]/20"], [class*="border-[#2F4A3C]/20"] {
+  border-color: rgba(18, 18, 18, 0.15) !important;
+}
+[class*="border-[#1A2420]/30"], [class*="border-[#2F4A3C]/30"] {
+  border-color: rgba(18, 18, 18, 0.25) !important;
+}
+
+/* 4. Accent Background Overrides (#8B5A4A and #9d430a) */
+[class*="bg-[#8B5A4A]"], [class*="bg-[#9d430a]"],
+[class*="hover:bg-[#8B5A4A]"]:hover, [class*="hover:bg-[#9d430a]"]:hover {
+  background-color: var(--accent) !important;
+}
+
+/* 5. Accent Text Overrides */
+[class*="text-[#8B5A4A]"], [class*="text-[#9d430a]"],
+[class*="hover:text-[#8B5A4A]"]:hover, [class*="hover:text-[#9d430a]"]:hover {
+  color: var(--accent) !important;
+}
+
+/* 6. Accent Border Overrides */
+[class*="border-[#8B5A4A]"], [class*="border-[#9d430a]"],
+[class*="hover:border-[#8B5A4A]"]:hover, [class*="hover:border-[#9d430a]"]:hover {
+  border-color: var(--accent) !important;
+}
+
+/* 7. Warm Off-white Background Overrides (#F7F4EE, #fcf9f3, #fcfaf6) */
+[class*="bg-[#F7F4EE]"], [class*="bg-[#fcf9f3]"], [class*="bg-[#fcfaf6]"] {
+  background-color: var(--bg) !important;
+}
+
+/* 8. Warm Off-white Text Overrides */
+[class*="text-[#F7F4EE]"], [class*="text-[#fcf9f3]"], [class*="text-[#fcfaf6]"] {
+  color: var(--bg) !important;
+}
+
+/* 9. Light Card Background Overrides (#f6f3ed) */
+[class*="bg-[#f6f3ed]"] {
+  background-color: #f1ece6 !important;
+}
+[class*="bg-[#f6f3ed]/10"] {
+  background-color: rgba(241, 236, 230, 0.1) !important;
+}
+
+/* Custom Selection styling for cohesive Editorial branding */
+::selection {
+  background-color: var(--accent) !important;
+  color: var(--bg) !important;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #dcdad4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Custom fade animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-in {
+  animation: slideInRight 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+

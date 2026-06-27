@@ -1,0 +1,56 @@
+[
+  {
+    "orderId": "VERD-345499",
+    "timestamp": "2026-06-26T19:48:18.947Z",
+    "customer": {
+      "email": "gkpranaveer700@gmail.com",
+      "name": "Test User",
+      "phone": "12065550199"
+    },
+    "shipping": {
+      "address": "123 Apothecary Way",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101",
+      "country": "United States",
+      "method": "standard"
+    },
+    "items": [
+      {
+        "productId": "botanical-sleep-elixir",
+        "name": "Botanical Sleep Elixir",
+        "quantity": 1,
+        "duration": "30 Days",
+        "price": 48
+      }
+    ],
+    "total": 48
+  },
+  {
+    "orderId": "VERD-365757",
+    "timestamp": "2026-06-26T19:50:15.351Z",
+    "customer": {
+      "email": "test@example.com",
+      "name": "Jane Doe",
+      "phone": "206-555-0199"
+    },
+    "shipping": {
+      "address": "123 Sleepy St",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101",
+      "country": "United States",
+      "method": "standard"
+    },
+    "items": [
+      {
+        "productId": "botanical-sleep-elixir",
+        "name": "Botanical Sleep Elixir",
+        "quantity": 1,
+        "duration": "30 Days",
+        "price": 48
+      }
+    ],
+    "total": 48
+  }
+]

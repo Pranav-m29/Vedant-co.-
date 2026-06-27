@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rev-1",
+    "productId": "botanical-sleep-elixir",
+    "name": "Aurelia V.",
+    "rating": 5,
+    "comment": "This sleep elixir has completely changed my evening routine. Within 20 minutes of taking it, I feel a natural wave of calm wash over me. No grogginess at all the next day.",
+    "date": "June 18, 2026"
+  },
+  {
+    "id": "rev-2",
+    "productId": "botanical-sleep-elixir",
+    "name": "Harrison K.",
+    "rating": 5,
+    "comment": "As a chronic light sleeper, I was skeptical of adaptogenic blends. But the addition of valerenic acid and magnesium bisglycinate in this tincture actually elongates my deep sleep cycle. Tested via my sleep tracker—delta waves are up 30%!",
+    "date": "June 10, 2026"
+  },
+  {
+    "id": "rev-3",
+    "productId": "cellular-renewal-serum",
+    "name": "Clara S.",
+    "rating": 5,
+    "comment": "Absolutely gorgeous texture. It spreads beautifully and locks in moisture without feeling heavy. I was previously using synthetic retinol which irritated my skin, but this plant-based bakuchiol blend has given me zero redness and all the glow.",
+    "date": "June 22, 2026"
+  },
+  {
+    "id": "rev-4",
+    "productId": "cortisol-balance-caps",
+    "name": "Marcus E.",
+    "rating": 4,
+    "comment": "Helps buffer my stress levels during busy clinic hours. The L-Theanine addition keeps my focus sharp without any caffeine jitters. Highly recommend.",
+    "date": "May 14, 2026"
+  },
+  {
+    "id": "rev-765576",
+    "productId": "botanical-sleep-elixir",
+    "name": "Alice S.",
+    "rating": 5,
+    "comment": "Stunning sleep results on 1782503415307",
+    "date": "June 27, 2026"
+  }
+]

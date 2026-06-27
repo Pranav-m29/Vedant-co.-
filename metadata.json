@@ -1,0 +1,6 @@
+{
+  "name": "Verdant & Co.",
+  "description": "Premium Clinical Apothecary - Clinically-backed, organic botanical formulations for modern rest, skin, and vitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
